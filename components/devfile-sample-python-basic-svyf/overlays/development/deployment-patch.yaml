@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-svyf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-rbve-tenant/appstudio/devfile-sample-python-basic-svyf@sha256:db98cceb7edacfd2d05113deaab7760abaaea3c4e0502064f97e5700743dc221
+        name: my-python
+        resources: {}
+status: {}
