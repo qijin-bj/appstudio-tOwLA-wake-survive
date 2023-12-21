@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-nwcf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/push-pyxis-rbve-tenant/appstudio/dc-metro-map-nwcf@sha256:06916b36287ddbedfabe03a98abe6802f61da740aee8f21028aed11c4fa0aa4c
         name: my-nodejs
         ports:
         - containerPort: 3001
